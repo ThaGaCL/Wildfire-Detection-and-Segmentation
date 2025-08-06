@@ -16,6 +16,7 @@ A unified deep learning pipeline for:
 - **Evaluation Scripts**: Compute IoU, Precision, Recall, and F1-score.
 
 ## Repository Structure
+$ tree
 .
 ├── Images with Boxed areas/    # Annotated bounding box images
 ├── Images/                     # Raw aerial fire images
