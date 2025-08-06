@@ -16,19 +16,27 @@ A unified deep learning pipeline for:
 - **Evaluation Scripts**: Compute IoU, Precision, Recall, and F1-score.
 
 ## Repository Structure
-├── Images with Boxed areas/
-├── Images/
-├── Masked Images/
-├── Notebooks/
+.
+├── Images with Boxed areas/    # Annotated bounding box images
+├── Images/                     # Raw aerial fire images
+├── Masked Images/              # Segmentation masks for preprocessing
+├── Notebooks/                  # Jupyter notebooks for experiments
 │   ├── AlexNet_fire_cnn.ipynb
 │   ├── SegNet.ipynb
 │   ├── UNet.ipynb
 │   ├── extraction_and_segmentation.ipynb
 │   └── image_cleaning.ipynb
-├── Original Images/
-├── Segmented Images/
-├── .DS_Store
-└── README.md
+├── Original Images/            # Unmodified source images
+├── Segmented Images/           # Model inference outputs
+├── src/                        # Core implementation modules
+│   ├── dataset.py              # Data loading and augmentation
+│   ├── model.py                # Network architectures
+│   ├── train.py                # Training routines
+│   ├── infer.py                # Inference scripts
+│   └── evaluate.py             # Evaluation metrics
+├── requirements.txt            # Python dependencies
+├── .gitignore                  # Ignored files (e.g., .DS_Store)
+└── README.md                   # Project overview and instructions
 
 
 ## Installation
