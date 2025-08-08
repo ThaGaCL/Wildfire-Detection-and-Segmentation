@@ -1,8 +1,8 @@
 ## Wildfire Detection and Segmentation
 
 This repository implements the framework described in
-**Unifying Classification and Segmentation in Wildfire Detection**
-_S. Singh, V. Vazirani, and A. Singhania, Multimedia Tools and Applications, 2024._
+**Beyond boundaries: Unifying classification and segmentation in wildfire detection systems**
+_Swapnil Singh, Vidhi Vazirani, Sanvika Singhania, Vaishnavi Singh Suroth, Vaibhav Soni, Ameyaa Biwalkar, and Deepa Krishnan, Multimedia Tools and Applications, 2024._
 
 A unified deep learning pipeline for:
 
