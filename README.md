@@ -1,4 +1,6 @@
 ## Wildfire Detection and Segmentation
+> [!NOTE]  
+> This is a fork from the original, modified to work locally.
 
 This repository implements the framework described in
 **Beyond boundaries: Unifying classification and segmentation in wildfire detection systems**
